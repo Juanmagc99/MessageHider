@@ -15,7 +15,7 @@ there is a potential for information loss due to compression.
 3. **Example Request (curl):**
    ```bash
    curl -X POST -H "Content-Type: multipart/form-data" \
-        -F "image=@path/to/your/image.jpg" \
+        -F "image=@path/to/your/image.(jpg\png)" \
         -F "message=Hello, this is my secret message" \
         http://your-server.com/process-image
 
